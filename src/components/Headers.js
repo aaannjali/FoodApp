@@ -26,11 +26,11 @@ export const Header = () => {
                                         <li className="px-4">
                                                 Online Status: { onlineStatus ? "✅" : "🔴"}
                                         </li>
-                                        <li className="px-4"><Link to="/">Home</Link></li>
-                                        <li className="px-4"><Link to="/about">About us</Link></li>
-                                        <li className="px-4"><Link to="/contectus">Contact Us</Link></li>
-                                        <li className="px-4"><Link to="/grocery">Grocery</Link></li>
-                                        <li className="px-4"><Link to= "/cart">Cart-({cartItems.length} items) </Link>  </li> 
+                                        <li className="px-4 "><Link to="/">Home</Link></li>
+                                        <li className="px-4 "><Link to="/about">About us</Link></li>
+                                        <li className="px-4 "><Link to="/contectus">Contact Us</Link></li>
+                                        <li className="px-4 "><Link to="/grocery">Grocery</Link></li>
+                                        <li className="px-4 "><Link to= "/cart">Cart-({cartItems.length} items) </Link>  </li> 
                                         <button className="login" onClick={()=>{
                                                 btnName == "Login" ?
                                                 setbtnName("Logout"):

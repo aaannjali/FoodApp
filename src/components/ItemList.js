@@ -11,6 +11,7 @@ const ItemList = ({ items }) => {
                 //dispatch an action
                 console.log(item);
                 dispatch (addItem (item));
+                alert("Item has been added!");
 
         };
 

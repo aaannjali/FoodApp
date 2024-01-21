@@ -26,8 +26,9 @@ const Cart = () => {
         )}
 
         {cartItems.length === 0 ? (
-          <div className="flex items-center justify-center">
-            <div className="text-center">
+          <div className="flex items-center justify-center h-screen">
+             <div className="flex items-center justify-center ">
+            <div className="text-center h-full">
               <p className="text-2xl font-bold mb-4">Your cart is empty</p>
               <p className="text-gray-500">Please add some items to your cart.</p>
               {/* Conditional rendering of Add Items button */}
@@ -35,6 +36,8 @@ const Cart = () => {
               <li className="mt-4 bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-700 cursor-pointer list-none"><Link to="/">Add Items</Link></li>
             </div>
           </div>
+          </div>
+         
         ) : null}
 
         <ItemList items={cartItems} />
