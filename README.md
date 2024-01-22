@@ -62,7 +62,20 @@
 - Client Side Routing
 - Server Side Routing
 
+# Types of Tesing
+- Unit testing
+- integration Testing
+- End to End Testing- e2e testing..
 
+
+- React testing library uses jest library.
+
+# how to install Testing library
+- Run npm i -D @testing-library/react 
+- Run npm i -D jest
+- installed babel dependencies
+- configure Babel
+- configure parcel config file to disable default nanel transpilation
 
  # How to run on your local
 - Clone the repository
